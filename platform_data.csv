@@ -1,0 +1,7 @@
+transaction_id,amount,date,status
+T001,1000,2026-03-01,success
+T002,500,2026-03-02,success
+T003,200,2026-03-03,success
+T004,750,2026-03-05,success
+T005,1200,2026-03-07,success
+T006,300,2026-03-10,success

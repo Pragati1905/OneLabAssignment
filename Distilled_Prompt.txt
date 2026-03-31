@@ -1,0 +1,8 @@
+Compare two transaction datasets (platform and bank) using transaction_id.
+Identify mismatches such as:
+- amount differences
+- settlement timing differences
+- missing transactions
+- duplicate entries
+
+Return a clear report of discrepancies.

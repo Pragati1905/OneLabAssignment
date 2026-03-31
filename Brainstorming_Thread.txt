@@ -1,0 +1,20 @@
+Goal: Identify mismatches between platform records and bank records.
+
+Assumptions:
+- Platform records transactions instantly
+- Bank settles transactions with delay (1–2 days or next month)
+- Matching is based on transaction_id
+
+Possible mismatch types:
+1. Timing mismatch (month difference)
+2. Amount mismatch (rounding errors)
+3. Missing transactions (platform but not bank)
+4. Extra transactions (bank but not platform)
+5. Duplicate entries (bank side)
+
+Approach:
+- Load both datasets
+- Match using transaction_id
+- Compare amount and date
+- Identify unmatched records
+- Flag discrepancies with reason

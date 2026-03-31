@@ -1,0 +1,17 @@
+Test Case 1: Matching transaction
+Expected: No issue for T001
+
+Test Case 2: Amount mismatch
+Expected: T002 flagged
+
+Test Case 3: Timing mismatch
+Expected: T003 flagged
+
+Test Case 4: Duplicate detection
+Expected: T004 flagged
+
+Test Case 5: Missing transaction
+Expected: T005, T006 flagged
+
+Test Case 6: Extra transaction
+Expected: T007 flagged
